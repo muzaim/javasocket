@@ -274,7 +274,7 @@ public class ChatMe extends javax.swing.JFrame implements Runnable{
         try {
             server_reader.close();
             server_writer.close();
-            btnConnect.setText("ON");
+            btnConnect.setText("ON"); 
             this.setTitle("Terputus");
         }
         catch (IOException e){
